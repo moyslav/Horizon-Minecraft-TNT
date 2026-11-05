@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:tnt",
+    "minecraft:sponge",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "insane_tnt:sponge_tnt"
+  }
+}

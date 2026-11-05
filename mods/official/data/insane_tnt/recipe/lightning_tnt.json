@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:tnt",
+    "minecraft:copper_ingot",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "insane_tnt:lightning_tnt"
+  }
+}

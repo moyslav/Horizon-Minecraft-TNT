@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:tnt",
+    "minecraft:glistering_melon_slice",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "insane_tnt:buff_tnt"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:tnt",
+    "minecraft:magma_block",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "insane_tnt:volcano_tnt"
+  }
+}

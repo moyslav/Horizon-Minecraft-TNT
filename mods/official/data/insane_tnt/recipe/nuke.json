@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:tnt",
+    "minecraft:nether_star",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "insane_tnt:nuke"
+  }
+}

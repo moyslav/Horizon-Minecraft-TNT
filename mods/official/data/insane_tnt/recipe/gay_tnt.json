@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:tnt",
+    "minecraft:white_wool",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "insane_tnt:gay_tnt"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:tnt",
+    "minecraft:slime_block",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "insane_tnt:magic_slime_tnt"
+  }
+}

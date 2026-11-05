@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:tnt",
+    "minecraft:fermented_spider_eye",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "insane_tnt:virus_tnt"
+  }
+}

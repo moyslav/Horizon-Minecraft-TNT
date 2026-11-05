@@ -1,0 +1,51 @@
+# The mod's command surface: /tnt lists the charges, hands one out, and
+# blows one up under the player. The blasts themselves are vanilla commands,
+# which the sandbox records but a script cannot assert (docs/mods.md).
+
+[[step]]
+ticks = 1
+expect.chat = [
+  "Insane TNT: 42 types. Use /tnt menu; right-click places, sneak + right-click lights a charge.",
+]
+
+[[step]]
+command = "tnt list"
+expect.feedback = "Right-click places a charge; sneak + right-click lights it. /tnt give <type> for one"
+
+[[step]]
+command = "tnt give nuke"
+expect.feedback = "Gave you Nuke"
+
+[[step]]
+command = "tnt give nuke"
+expect.feedback = "Gave you Nuke"
+
+[[step]]
+command = "tnt here mini_nuke"
+expect.feedback = "Mini Nuke goes off under you"
+
+[[step]]
+command = "tnt place nuke"
+expect.feedback = "Nuke is placed: light it with flint and steel"
+
+[[step]]
+command = "tnt place lol"
+expect.error = "no TNT type \"lol\": /tnt list"
+
+[[step]]
+command = "tnt lol"
+expect.error = "Unknown TNT type \"lol\": /tnt list"
+
+[[step]]
+command = "tnt list"
+expect.feedback = "Right-click places a charge; sneak + right-click lights it. /tnt give <type> for one"
+
+[[step]]
+reload = true
+ticks = 1
+expect.chat = [
+  "Insane TNT: 42 types. Use /tnt menu; right-click places, sneak + right-click lights a charge.",
+]
+
+[[step]]
+expect.commands = ["tnt"]

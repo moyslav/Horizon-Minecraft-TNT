@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:tnt",
+    "minecraft:heart_of_the_sea",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "insane_tnt:titan_nuke"
+  }
+}

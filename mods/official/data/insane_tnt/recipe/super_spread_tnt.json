@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:tnt",
+    "minecraft:redstone_block",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "insane_tnt:super_spread_tnt"
+  }
+}

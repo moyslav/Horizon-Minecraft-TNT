@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:tnt",
+    "minecraft:golden_apple",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "insane_tnt:big_chungus_tnt"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:tnt",
+    "minecraft:recovery_compass",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "insane_tnt:ultra_world_dissolver"
+  }
+}

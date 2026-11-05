@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:tnt",
+    "minecraft:packed_ice",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "insane_tnt:subzero_tnt"
+  }
+}

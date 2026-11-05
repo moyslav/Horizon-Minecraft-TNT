@@ -1,0 +1,7 @@
+{
+  "template": "minecraft:tnt",
+  "properties": {
+    "hardness": 0.0
+  },
+  "item": true
+}

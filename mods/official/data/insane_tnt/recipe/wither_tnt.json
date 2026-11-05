@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:tnt",
+    "minecraft:wither_skeleton_skull",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "insane_tnt:wither_tnt"
+  }
+}

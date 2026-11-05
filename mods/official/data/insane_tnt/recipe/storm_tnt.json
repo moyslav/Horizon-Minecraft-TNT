@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:tnt",
+    "minecraft:phantom_membrane",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "insane_tnt:storm_tnt"
+  }
+}

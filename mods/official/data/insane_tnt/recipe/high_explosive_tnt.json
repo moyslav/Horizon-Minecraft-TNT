@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:tnt",
+    "minecraft:blaze_powder",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "insane_tnt:high_explosive_tnt"
+  }
+}

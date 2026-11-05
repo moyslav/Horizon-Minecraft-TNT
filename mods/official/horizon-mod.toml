@@ -1,0 +1,16 @@
+# Insane TNT for Horizon (docs/mods.md, docs/modpacks.md).
+#
+# A port of the idea of "Insane TNT" (modsbydreamcritting's Java mod, all
+# rights reserved) to Horizon: its public list of TNT types, reimplemented
+# as an item set plus a detonator. No Java file, name list or texture of
+# that mod is copied; the textures here are generated (tools/make_assets.py).
+id = "insane_tnt"
+name = "Insane TNT"
+version = "0.1.0"
+description = "Dozens of TNT types: right-click to place, sneak + right-click to light, and craftable nukes that devastate huge areas. Cheats required for their effects."
+authors = ["Horizon"]
+# Content (registries, API 0.2) plus code (the detonator).
+api = "0.2"
+side = "client"
+capabilities = ["registries", "game-read", "chat", "command", "input", "ui", "recipes"]
+experimental = ["input", "ui", "recipes"]
